@@ -1,0 +1,40 @@
+<scroll-view scroll-y class="content-info">
+
+<swiper class="content-info-slide" indicator-color="rgaba(255,255,255,.5)"
+indicator-active-color="#fff" indicator-dots circular autoplay>
+    <block wx:for="{{swiperImg}}" wx:key="index">
+        <swiper-item>
+            <image src="{{item}}"/>
+        </swiper-item>
+    </block>
+</swiper>
+
+<view class="content-info-portal">
+    <view>
+        <image src="/images/04.png"/>
+        <view>私人FM</view>
+    </view>
+    <view>
+        <image src="/images/05.png"/>
+        <view>每日歌曲推荐</view>
+    </view>     `
+    <view>
+        <image src="/images/06.png"/>
+        <view>云音乐新歌榜</view>
+    </view>
+</view>
+
+    <view class="content-info-list">
+<view class="list-title">热门音乐</view>
+<view class="list-inner">
+    <block wx:for="{{hotSong}}" wx:key="{{index}}" >
+        <view class="list-item">
+            <image src="{{item.imgUrl}}"/>
+            <view>{{item.songName}}</view>
+        </view>
+    </block>
+</view>
+    </view>
+</scroll-view>
+
+                        

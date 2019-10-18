@@ -1,0 +1,18 @@
+<view class="content-play">
+    <view class="content-play-info">
+        <text >{{play.title}}</text>
+        <view >—{{play.singer}}—</view>
+    </view>
+    <!--封面 -->
+    <view class="content-play-cover">
+        <image src="{{play.coverImgUrl}}"style="animation-play-state:{{state}}" />
+    </view>
+    <view class="content-play-progress">
+        <text>{{play.currentTime}}</text>
+        <slider  value="{{play.percent}}" bindchange="sliderChange" active-color="#d33a31"
+                 background-color="#dadada"
+                 block-size="10"/>
+        <text >{{play.duration}}</text>
+
+    </view>
+</view>

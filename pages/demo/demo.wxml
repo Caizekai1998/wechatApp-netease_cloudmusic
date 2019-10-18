@@ -1,0 +1,18 @@
+<!--pages/demo/demo.wxml-->
+<swiper indicator-active-color="red" autoplay  indicator-dots> 
+     <swiper-item>1</swiper-item>
+     <swiper-item>2</swiper-item>
+     <swiper-item>3</swiper-item>
+</swiper>
+
+<scroll-view scroll-y autoplay class="y">
+<view>1</view>
+<view>2</view>
+<view>3</view>
+</scroll-view>
+
+<scroll-view scroll-x class="x">
+<view>1</view>
+<view>2</view>
+<view>3</view>
+</scroll-view>
