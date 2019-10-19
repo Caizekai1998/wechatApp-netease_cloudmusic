@@ -13,6 +13,8 @@ WeChat 音乐小程序
 我的：最近播放列表，收藏列表
 
 
-效果展示：![Image text]()
-          ![Image text]()
-          ![Image text]()
+效果展示：![Image text](https://github.com/Caizekai1998/wechatApp-netease_cloudmusic/blob/Test/4.jpg)
+
+          ![Image text](https://github.com/Caizekai1998/wechatApp-netease_cloudmusic/blob/Test/4.jpg)
+          
+          ![Image text](https://github.com/Caizekai1998/wechatApp-netease_cloudmusic/blob/Test/6.jpg)
